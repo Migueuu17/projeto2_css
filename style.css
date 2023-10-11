@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #46485021;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  padding: 16px 0;
+  background-color: #2e323f;
+  color: #ecf0f1;
+}
+.container-nav nav li {
+  display: inline;
+  margin: 16px;
+  font-size: 18px;
+}
+
+header nav li a {
+  color: #ecf0f1;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+.container-nav img {
+  height: 48px;
+}
+#logo {
+  display: flex;
+  align-items: center;
+}
+#logo img {
+  margin-right: 12px;
+}
+.container-about {
+  align-items: flex-start;
+}
+#about-social {
+  padding: 24px 0;
+  color: #2e323f;
+}
+#title-about {
+  margin-bottom: 18px;
+  font-size: 24px;
+}
+
+.text-about {
+  margin-bottom: 8px;
+}
+#teamnip {
+  width: 40%;
+  margin-right: 32px;
+}
+#title-social {
+  margin-bottom: 4px;
+  margin-top: 24px;
+}
+
+.social-links li {
+  display: inline;
+  margin-right: 8px;
+}
+
+.social-links li a {
+  text-decoration: none;
+}
+.social-links a img {
+  height: 32px;
+  margin-right: 12px;
+}
+form input,
+form textarea,
+form button {
+  display: block;
+  width: 320px;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+
+form textarea {
+  resize: none;
+  height: 180px;
+}
+
+form button {
+  background-color: #2e323f;
+  color: #ecf0f1;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #2e323f;
+}
+
+input:focus,
+textarea:focus {
+  outline-color: #2e323f;
+}
